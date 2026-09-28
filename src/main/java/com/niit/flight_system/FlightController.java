@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Controller // Use @Controller for UI, not @RestController
-public cclass FlightController {
+public class FlightController {
 
     @GetMapping("/")
     public String viewDashboard(Model model) {
